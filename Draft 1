@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bears are scary</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<!-- Div structure of the page -->
+<!--
+<div class="navigation-left" style="float:left">
+<ul>
+<li><a href="#">Brown Bears</a></li>
+<li><a href="#">Black Bears</a></li>
+<li><a href="#">Polar Bears</a></li>
+</ul>
+</div>
+
+<div class="navigation-right" style="float:right">
+  <ul>
+    <li><a href="#">About Banff</a></li>
+  </ul>
+</div>
+-->
+
+<!--TOPNAV-->
+<body>
+
+<div class="page">
+
+<div class="topnav">
+    <a href="#">Brown Bears</a>
+    <a href="#">Black Bears</a>
+    <a href="#">Polar Bears</a>
+     <!--<a href= "#"><a style="float:right" padding: 14px 16px; text-align: left;>About Banff</a> -->
+    <a href="#about" class="split">About Banff</a>
+
+  </div>
+
+  <!--MAINBODY-->
+  <div class="mainbody">
+
+        <div class="sidebarleft"> 
+          <h1>The Bears of Banff</h1>
+         </div>
+
+         <div class="sidebarright">
+          <p>Information about the bear that is in the image.</p>
+
+         </div>
+  </div>
+
+
+
+
+
+  <!--FOOTER-->
+  <div class="footer">
+    <div class='column'></div>
+    <div class='column'></div>
+    <div class='column'></div>
+    <div class='column'></div>
+    <div class='column'></div>
+    <div class='column'></div>
+  </div>
+
+</div>
+</body>
+
+
+<!-- CSS Content -->
+
+<style>
+
+
+/* Style the Page */ 
+
+.page {
+  width: max-content;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: EAEDF0;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  display: block;
+  background-color: #353D2F;
+  text-align: left;
+  font-size: large;
+  padding: 16px 16px;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; 
+}
+
+/* Style the topnav links */
+.topnav a {
+  
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  padding: 14px 16px;
+}
+
+
+.topnav a.split {
+  float: right;
+  background-color: #353D2F;
+  color: white;
+  padding-left: 16px 16px; 
+  margin: 20px;
+  
+}
+
+.topnav a.split:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* main body styling */ 
+
+/*.mainbody {
+  background-image: url("banff.webp");
+  height:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1px;
+
+}
+*/
+
+.sidebarleft {
+      float: left;
+      width: 1150px;
+      height: 900px;
+      background-color: #9CFC97;
+      margin-left: -15px;
+      padding-left: 10px;
+      padding: 0px;
+      text-align: center;
+      text-justify:auto ;
+    
+}
+
+.mainbody {
+  padding: 100px;
+  background-color: #6ba368;
+  height: 800px;
+  width: 2200px; 
+  margin: 0px; 
+  padding-left: 0%;
+}
+
+</style>
